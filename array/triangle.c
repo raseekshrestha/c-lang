@@ -32,8 +32,5 @@ int main(){
     if (sum > 0){
         printf("lower tranggular\n");
     }  
-    
-    
-    
-    
+
 }
