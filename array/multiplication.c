@@ -4,7 +4,7 @@
 
 
 int main(){
-	int r1=2,c1=2,r2=2,c2=2;	
+	int r1=2,c1=2,r2=2,c2=2;s
 	int A[r1][c1],B[r2][c2];
 
 	if (c1!=r2){
