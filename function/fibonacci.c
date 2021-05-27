@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void fibonacci(int n,int a,int b){
 	if (n!=0){
 		printf("%d ",a);
@@ -8,9 +7,7 @@ void fibonacci(int n,int a,int b){
 		a = b;
 		b = c;
 		fibonacci(n-1,a,b);
-
 	}
-
 }
 
 int main(){
