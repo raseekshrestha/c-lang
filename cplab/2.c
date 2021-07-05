@@ -255,21 +255,21 @@
 //   34543
 //  4567654
 // 567898765
-int main(){
-	int j;
-	for (int i=1;i<=5;i++){
-		for (int  k=4;k>=i;k--){
-			printf(" ");
-		}
-		for (j=i;j<=2*i-1;j++){
-			printf("%d",j );
-		}
-		for (int j1=j-2;j1>=i;j1--){
-			printf("%d",j1 );
-		}
-		printf("\n" );
-	}
-}
+// int main(){
+// 	int j;
+// 	for (int i=1;i<=5;i++){
+// 		for (int  k=4;k>=i;k--){
+// 			printf(" ");
+// 		}
+// 		for (j=i;j<=2*i-1;j++){
+// 			printf("%d",j );
+// 		}
+// 		for (int j1=j-2;j1>=i;j1--){
+// 			printf("%d",j1 );
+// 		}
+// 		printf("\n" );
+// 	}
+// }
 
 
 //     A
@@ -294,6 +294,5 @@ int main(){
 // 			ch--;
 // 		}
 // 		printf("\n" );
-
 // 	}
 // }
