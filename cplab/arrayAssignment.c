@@ -76,45 +76,45 @@
 // }
 
 // q.5 arrange item in ascending order
-// int main(){
-// 	char ch;
-// 	int n,temp;
-// 	printf("Enter value for n : ");	
-// 	scanf("%d",&n);
-// 	int arr[n];
-// 	for (int i=0;i<n;i++){
-// 		printf("Enter number %d : ",i+1 );
-// 		scanf("%d",&arr[i]);
-// 	}
-// 	printf("a. ascending order\nd. descending order\nChoose any : ");
-// 	scanf(" %c",&ch);
+int main(){
+	char ch;
+	int n,temp;
+	printf("Enter value for n : ");	
+	scanf("%d",&n);
+	int arr[n];
+	for (int i=0;i<n;i++){
+		printf("Enter number %d : ",i+1 );
+		scanf("%d",&arr[i]);
+	}
+	printf("a. ascending order\nd. descending order\nChoose any : ");
+	scanf(" %c",&ch);
 	
-// 	for (int i=0;i<n;i++){
-// 		for (int j=0;j<n-1;j++){
-// 			if (arr[j]>arr[j+1]){
-// 				// swap place
-// 				temp = arr[j];
-// 				arr[j] = arr[j+1];
-// 				arr[j+1] = temp;				
-// 			}
-// 		}
-// 	}
-// 	if (ch=='a'){
-// 		for (int i=0;i<n;i++){
-// 			printf("%d ",arr[i]);
-// 		}
-// 	}
-// 	else if (ch=='d'){
-// 		for (n--;n>=0;n--){
-// 			printf("%d ",arr[n] );
-// 		}
-// 	}
-// 	else{
-// 		printf("Invalid Choice\n");
-// 	}
-// 	printf("\n");
-// 	return 0;
-// }
+	for (int i=0;i<n;i++){
+		for (int j=0;j<n-1;j++){
+			if (arr[j]>arr[j+1]){
+				// swap place
+				temp = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = temp;				
+			}
+		}
+	}
+	if (ch=='a'){
+		for (int i=0;i<n;i++){
+			printf("%d ",arr[i]);
+		}
+	}
+	else if (ch=='d'){
+		for (n--;n>=0;n--){
+			printf("%d ",arr[n] );
+		}
+	}
+	else{
+		printf("Invalid Choice\n");
+	}
+	printf("\n");
+	return 0;
+}
 
 
 // q.6 ask n nums and display only prime
@@ -284,25 +284,25 @@
 
 
 // q.11 sum of diagonla element
-int main(){
-	int row=2,sum=0; // give me squre matrix
-	int mat[row][row];
-	printf("Enter values for mat: \n");
-	for (int i=0;i<row;i++){
-		for (int j=0;j<row;j++){
-			printf("mat[%d][%d] = ",i,j);
-			scanf("%d",&mat[i][j]);
-			if  (i==j){
-				sum += mat[i][j];
-			}
-		}
-	}
-	for (int i=0;i<row;i++){
-		for (int j=0;j<row;j++){
-			printf("%d\t",mat[i][j]);
-		}
-		printf("\n");
-	}
-	printf("sum of diagonal is %d\n",sum );
+// int main(){
+// 	int row=2,sum=0; // give me squre matrix
+// 	int mat[row][row];
+// 	printf("Enter values for mat: \n");
+// 	for (int i=0;i<row;i++){
+// 		for (int j=0;j<row;j++){
+// 			printf("mat[%d][%d] = ",i,j);
+// 			scanf("%d",&mat[i][j]);
+// 			if  (i==j){
+// 				sum += mat[i][j];
+// 			}
+// 		}
+// 	}
+// 	for (int i=0;i<row;i++){
+// 		for (int j=0;j<row;j++){
+// 			printf("%d\t",mat[i][j]);
+// 		}
+// 		printf("\n");
+// 	}
+// 	printf("sum of diagonal is %d\n",sum );
 
-}
+// }
